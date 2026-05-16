@@ -1,5 +1,6 @@
 # torder-report-skillathon
 
+![티오더 리포트 미리보기](https://storage.ghost.io/c/a7/61/a761012a-4770-4f0e-ad76-0149eca2f048/content/images/2026/05/-----------------------------------------------------.png)
 티오더 주문 CSV를 분석해 매장 사장님용 모바일 리포트를 만들고, Netlify 공유 URL과 Gmail 발송 초안까지 준비하는 Skillathon 제출용 스킬입니다.
 
 ## 문제 정의
