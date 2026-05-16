@@ -15,8 +15,8 @@ python3 scripts/build_report.py examples/sample-analysis.json --out examples/sam
 - CSV 비식별 처리: passed
 - CSV 분석: passed
 - HTML 리포트 생성: passed
-- Netlify 배포: pending
-- Netlify URL 검증: pending
+- Netlify 배포: passed
+- Netlify URL 검증: passed
 - Gmail 초안 생성: sample draft only
 
 ## Data Safety
@@ -32,6 +32,13 @@ python3 scripts/build_report.py examples/sample-analysis.json --out examples/sam
 - `examples/sample-analysis.json`
 - `examples/sample-report.html`
 - `examples/sample-email-draft.md`
+
+## Netlify
+
+- Project: `torder-report-skillathon`
+- Site URL: https://torder-report-skillathon.netlify.app
+- Deploy ID: `6a082239493543e06cafafb8`
+- HTTP check: `200`
 
 ## Sample Metrics
 

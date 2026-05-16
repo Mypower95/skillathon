@@ -10,7 +10,7 @@ Subject: [코덱스커뮤니티(최고점)] 티오더 주문 리포트 공유드
 총 주문 금액은 17,753,900원, 추가 주문율은 94.2%로 확인되었습니다.
 
 아래 링크에서 모바일로 바로 확인하실 수 있습니다.
-https://YOUR_NETLIFY_SITE.netlify.app
+https://torder-report-skillathon.netlify.app
 
 확인 후 궁금하신 점이 있으면 편하게 말씀 부탁드립니다.
 

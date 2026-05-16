@@ -64,6 +64,10 @@ python3 scripts/build_report.py examples/sample-analysis.json --out examples/sam
 
 Netlify CLI 또는 Netlify MCP를 사용할 수 있으면 `examples/sample-report.html`을 `index.html`로 배포합니다.
 
+데모 URL:
+
+https://torder-report-skillathon.netlify.app
+
 ```bash
 mkdir -p /tmp/torder-report-skillathon-site
 cp examples/sample-report.html /tmp/torder-report-skillathon-site/index.html
