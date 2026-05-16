@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>코덱스커뮤니티(최고점) 티오더 리포트</title>
+  <style>
+    :root {
+      --primary: #1456f0;
+      --accent: #ff385c;
+      --bg: #f4f6f8;
+      --card: #ffffff;
+      --text: #191f28;
+      --muted: #6b7280;
+      --line: #e5e7eb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.5;
+    }
+    main {
+      width: min(100%, 430px);
+      margin: 0 auto;
+      padding: 20px 16px 32px;
+    }
+    .hero {
+      padding: 24px 20px;
+      border-radius: 18px;
+      background: linear-gradient(135deg, var(--primary), #0b2f88);
+      color: white;
+    }
+    .hero p { margin: 8px 0 0; opacity: .88; }
+    h1 { margin: 0; font-size: 26px; line-height: 1.2; }
+    h2 { margin: 28px 0 12px; font-size: 18px; }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 12px;
+    }
+    .metric, .card, .panel {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 16px;
+    }
+    .metric span, .eyebrow {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .02em;
+    }
+    .metric strong {
+      display: block;
+      margin-top: 6px;
+      font-size: 20px;
+    }
+    .stack { display: grid; gap: 10px; }
+    ul { list-style: none; padding: 0; margin: 0; }
+    li {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      padding: 13px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    li:last-child { border-bottom: 0; }
+    li span { display: block; color: var(--muted); font-size: 13px; }
+    li em { white-space: nowrap; font-style: normal; font-weight: 800; }
+    .bar-row {
+      display: grid;
+      grid-template-columns: 42px 1fr 42px;
+      align-items: center;
+      gap: 10px;
+      margin: 10px 0;
+      font-size: 13px;
+    }
+    .bar-track { height: 10px; border-radius: 999px; background: #e8eefc; overflow: hidden; }
+    .bar { height: 100%; border-radius: inherit; background: var(--primary); }
+    .bar.accent { background: var(--accent); }
+    .bar-row.daily { grid-template-columns: 48px 1fr 86px; }
+    .cta {
+      margin-top: 24px;
+      padding: 18px;
+      border-radius: 16px;
+      background: #111827;
+      color: white;
+    }
+    .cta a { color: white; word-break: break-all; }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <h1>코덱스커뮤니티(최고점)<br>티오더 주문 리포트</h1>
+      <p>2026-04-21 ~ 2026-05-11 주문 데이터를 기준으로 정리했습니다.</p>
+    </section>
+
+    <section class="grid">
+      <div class="metric"><span>총 주문 금액</span><strong>17,753,900원</strong></div>
+      <div class="metric"><span>주문 세션</span><strong>534건</strong></div>
+      <div class="metric"><span>평균 주문 금액</span><strong>33,247원</strong></div>
+      <div class="metric"><span>추가 주문율</span><strong>94.2%</strong></div>
+    </section>
+
+    <h2>핵심 인사이트</h2>
+    <div class="stack">
+        <section class="card">
+          <p class="eyebrow">추가 주문</p>
+          <p>고유 주문 534건 중 503건에서 추가 주문이 발생했습니다.</p>
+        </section>
+        
+
+        <section class="card">
+          <p class="eyebrow">인기 메뉴</p>
+          <p>가장 많이 팔린 메뉴는 참이슬후레쉬이며 총 492개 판매되었습니다.</p>
+        </section>
+        
+
+        <section class="card">
+          <p class="eyebrow">피크 시간</p>
+          <p>22시에 주문이 308건으로 가장 많았습니다.</p>
+        </section>
+        </div>
+
+    <h2>인기 메뉴 TOP 5</h2>
+    <section class="panel"><ul>
+        <li>
+          <div>
+            <strong>참이슬후레쉬</strong>
+            <span>492개 판매</span>
+          </div>
+          <em>2,460,000원</em>
+        </li>
+        
+
+        <li>
+          <div>
+            <strong>우동(중간맛)</strong>
+            <span>230개 판매</span>
+          </div>
+          <em>2,070,000원</em>
+        </li>
+        
+
+        <li>
+          <div>
+            <strong>탕수육</strong>
+            <span>140개 판매</span>
+          </div>
+          <em>2,380,000원</em>
+        </li>
+        
+
+        <li>
+          <div>
+            <strong>새로</strong>
+            <span>117개 판매</span>
+          </div>
+          <em>585,000원</em>
+        </li>
+        
+
+        <li>
+          <div>
+            <strong>어묵우동(중간맛)</strong>
+            <span>99개 판매</span>
+          </div>
+          <em>990,000원</em>
+        </li>
+        </ul></section>
+
+    <h2>매출 기여 메뉴 TOP 5</h2>
+    <section class="panel"><ul>
+        <li>
+          <div>
+            <strong>참이슬후레쉬</strong>
+            <span>492개 판매</span>
+          </div>
+          <em>2,460,000원</em>
+        </li>
+        
+
+        <li>
+          <div>
+            <strong>탕수육</strong>
+            <span>140개 판매</span>
+          </div>
+          <em>2,380,000원</em>
+        </li>
+        
+
+        <li>
+          <div>
+            <strong>우동(중간맛)</strong>
+            <span>230개 판매</span>
+          </div>
+          <em>2,070,000원</em>
+        </li>
+        
+
+        <li>
+          <div>
+            <strong>어묵우동(중간맛)</strong>
+            <span>99개 판매</span>
+          </div>
+          <em>990,000원</em>
+        </li>
+        
+
+        <li>
+          <div>
+            <strong>깡탕세트</strong>
+            <span>41개 판매</span>
+          </div>
+          <em>779,000원</em>
+        </li>
+        </ul></section>
+
+    <h2>일별 주문 금액</h2>
+    <section class="panel">
+            <div class="bar-row daily">
+              <span>04/21</span>
+              <div class="bar-track"><div class="bar accent" style="width:20%"></div></div>
+              <strong>345,500원</strong>
+            </div>
+            
+
+            <div class="bar-row daily">
+              <span>04/22</span>
+              <div class="bar-track"><div class="bar accent" style="width:24%"></div></div>
+              <strong>426,000원</strong>
+            </div>
+            
+
+            <div class="bar-row daily">
+              <span>04/23</span>
+              <div class="bar-track"><div class="bar accent" style="width:27%"></div></div>
+              <strong>481,400원</strong>
+            </div>
+            
+
+            <div class="bar-row daily">
+              <span>04/24</span>
+              <div class="bar-track"><div class="bar accent" style="width:52%"></div></div>
+              <strong>920,500원</strong>
+            </div>
+            
+
+            <div class="bar-row daily">
+              <span>04/25</span>
+              <div class="bar-track"><div class="bar accent" style="width:96%"></div></div>
+              <strong>1,692,600원</strong>
+            </div>
+            
+
+            <div class="bar-row daily">
+              <span>04/26</span>
+              <div class="bar-track"><div class="bar accent" style="width:55%"></div></div>
+              <strong>971,400원</strong>
+            </div>
+            
+
+            <div class="bar-row daily">
+              <span>04/27</span>
+              <div class="bar-track"><div class="bar accent" style="width:33%"></div></div>
+              <strong>582,500원</strong>
+            </div>
+            
+
+            <div class="bar-row daily">
+              <span>04/28</span>
+              <div class="bar-track"><div class="bar accent" style="width:45%"></div></div>
+              <strong>784,500원</strong>
+            </div>
+            
+
+            <div class="bar-row daily">
+              <span>04/29</span>
+              <div class="bar-track"><div class="bar accent" style="width:28%"></div></div>
+              <strong>497,000원</strong>
+            </div>
+            
+
+            <div class="bar-row daily">
+              <span>04/30</span>
+              <div class="bar-track"><div class="bar accent" style="width:47%"></div></div>
+              <strong>824,900원</strong>
+            </div>
+            
+
+            <div class="bar-row daily">
+              <span>05/01</span>
+              <div class="bar-track"><div class="bar accent" style="width:82%"></div></div>
+              <strong>1,447,500원</strong>
+            </div>
+            
+
+            <div class="bar-row daily">
+              <span>05/02</span>
+              <div class="bar-track"><div class="bar accent" style="width:100%"></div></div>
+              <strong>1,758,600원</strong>
+            </div>
+            
+
+            <div class="bar-row daily">
+              <span>05/03</span>
+              <div class="bar-track"><div class="bar accent" style="width:55%"></div></div>
+              <strong>966,000원</strong>
+            </div>
+            
+
+            <div class="bar-row daily">
+              <span>05/04</span>
+              <div class="bar-track"><div class="bar accent" style="width:60%"></div></div>
+              <strong>1,060,900원</strong>
+            </div>
+            
+
+            <div class="bar-row daily">
+              <span>05/05</span>
+              <div class="bar-track"><div class="bar accent" style="width:48%"></div></div>
+              <strong>840,900원</strong>
+            </div>
+            
+
+            <div class="bar-row daily">
+              <span>05/06</span>
+              <div class="bar-track"><div class="bar accent" style="width:17%"></div></div>
+              <strong>302,000원</strong>
+            </div>
+            
+
+            <div class="bar-row daily">
+              <span>05/07</span>
+              <div class="bar-track"><div class="bar accent" style="width:20%"></div></div>
+              <strong>347,500원</strong>
+            </div>
+            
+
+            <div class="bar-row daily">
+              <span>05/08</span>
+              <div class="bar-track"><div class="bar accent" style="width:38%"></div></div>
+              <strong>674,000원</strong>
+            </div>
+            
+
+            <div class="bar-row daily">
+              <span>05/09</span>
+              <div class="bar-track"><div class="bar accent" style="width:67%"></div></div>
+              <strong>1,170,500원</strong>
+            </div>
+            
+
+            <div class="bar-row daily">
+              <span>05/10</span>
+              <div class="bar-track"><div class="bar accent" style="width:42%"></div></div>
+              <strong>736,000원</strong>
+            </div>
+            
+
+            <div class="bar-row daily">
+              <span>05/11</span>
+              <div class="bar-track"><div class="bar accent" style="width:53%"></div></div>
+              <strong>923,700원</strong>
+            </div>
+            </section>
+
+    <h2>시간대별 주문 패턴</h2>
+    <section class="panel">
+            <div class="bar-row">
+              <span>00시</span>
+              <div class="bar-track"><div class="bar" style="width:70%"></div></div>
+              <strong>216건</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>01시</span>
+              <div class="bar-track"><div class="bar" style="width:60%"></div></div>
+              <strong>184건</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>02시</span>
+              <div class="bar-track"><div class="bar" style="width:70%"></div></div>
+              <strong>216건</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>03시</span>
+              <div class="bar-track"><div class="bar" style="width:66%"></div></div>
+              <strong>202건</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>04시</span>
+              <div class="bar-track"><div class="bar" style="width:27%"></div></div>
+              <strong>82건</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>05시</span>
+              <div class="bar-track"><div class="bar" style="width:8%"></div></div>
+              <strong>4건</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>16시</span>
+              <div class="bar-track"><div class="bar" style="width:8%"></div></div>
+              <strong>2건</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>18시</span>
+              <div class="bar-track"><div class="bar" style="width:21%"></div></div>
+              <strong>66건</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>19시</span>
+              <div class="bar-track"><div class="bar" style="width:40%"></div></div>
+              <strong>122건</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>20시</span>
+              <div class="bar-track"><div class="bar" style="width:93%"></div></div>
+              <strong>286건</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>21시</span>
+              <div class="bar-track"><div class="bar" style="width:78%"></div></div>
+              <strong>239건</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>22시</span>
+              <div class="bar-track"><div class="bar" style="width:100%"></div></div>
+              <strong>308건</strong>
+            </div>
+            
+
+            <div class="bar-row">
+              <span>23시</span>
+              <div class="bar-track"><div class="bar" style="width:74%"></div></div>
+              <strong>229건</strong>
+            </div>
+            </section>
+
+    <section class="cta">
+      <strong>공유 URL</strong>
+      <p>Netlify 배포 후 매장 사장님에게 아래 링크를 전달합니다.</p>
+      <a href="Netlify 배포 후 URL이 여기에 들어갑니다.">Netlify 배포 후 URL이 여기에 들어갑니다.</a>
+    </section>
+  </main>
+</body>
+</html>
