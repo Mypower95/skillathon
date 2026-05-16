@@ -3,10 +3,12 @@
 ![엑셀 팡션](https://mblogthumb-phinf.pstatic.net/MjAyNDAxMjdfMjAz/MDAxNzA2MzQ0ODYzNTQ5.k5znTy_B4NWJxAiSZbMrm4jLfHFC4d9qNh3DDBNESOQg.brZt2CeSDNaoK6phWAjWck2TBNR392p9KYwY1AKEbE8g.JPEG.vaipers/%EC%97%91%EC%85%80_%ED%8C%A1%EC%85%982.jpg?type=w800)
 # 최대리. 내가 감히 조언하고 싶은게 있습니다. 코덱스 스킬? 그거 너무 믿지 마세요.고객 데이터를 엑셀 퐝션으로 하나 하나씩 분석하며 공감하는 방법도 있죠. 코덱스는 소잡는 칼 아닌가 싶어 의견드립니다.
 
-![티오더 리포트 미리보기](https://storage.ghost.io/c/a7/61/a761012a-4770-4f0e-ad76-0149eca2f048/content/images/2026/05/-----------------------------------------------------.png)
-
 이 스킬은 엑셀 분석으로 고생할 영업 사원들을 문서 작업으로부터 해방 시키고, 고객들과의 접점을 늘리고 유대 관계를 형성하는 것에 집중하길 바라며 만들었습니다.
 즉, 티오더 주문 CSV를 분석해 매장 사장님용 모바일 리포트를 만들고, Netlify 공유 URL과 Gmail 발송 초안까지 준비하는 Skillathon 제출용 스킬입니다.
+
+본 스킬을 썼을 때 생성되는 결과물은 아래와 같습니다.
+
+![티오더 리포트 미리보기](https://storage.ghost.io/c/a7/61/a761012a-4770-4f0e-ad76-0149eca2f048/content/images/2026/05/-----------------------------------------------------.png)
 
 ## 문제 정의
 
