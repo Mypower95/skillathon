@@ -35,6 +35,31 @@
       "name": "어묵우동(중간맛)",
       "quantity": 99,
       "sales": 990000
+    },
+    {
+      "name": "테라",
+      "quantity": 92,
+      "sales": 460000
+    },
+    {
+      "name": "우동(매운맛)",
+      "quantity": 82,
+      "sales": 738000
+    },
+    {
+      "name": "처음처럼",
+      "quantity": 76,
+      "sales": 380000
+    },
+    {
+      "name": "생맥주 500cc",
+      "quantity": 72,
+      "sales": 324000
+    },
+    {
+      "name": "고기만두",
+      "quantity": 62,
+      "sales": 496000
     }
   ],
   "top_revenue_items": [
@@ -62,6 +87,31 @@
       "name": "깡탕세트",
       "quantity": 41,
       "sales": 779000
+    },
+    {
+      "name": "우동(매운맛)",
+      "quantity": 82,
+      "sales": 738000
+    },
+    {
+      "name": "새로",
+      "quantity": 117,
+      "sales": 585000
+    },
+    {
+      "name": "우동(순한맛)",
+      "quantity": 60,
+      "sales": 540000
+    },
+    {
+      "name": "고기만두",
+      "quantity": 62,
+      "sales": 496000
+    },
+    {
+      "name": "테라",
+      "quantity": 92,
+      "sales": 460000
     }
   ],
   "hourly_orders": {

@@ -140,11 +140,11 @@ def main():
 
     top_items = [
         {"name": name, "quantity": qty, "sales": item_sales[name]}
-        for name, qty in item_qty.most_common(5)
+        for name, qty in item_qty.most_common(10)
     ]
     top_revenue_items = [
         {"name": name, "quantity": item_qty[name], "sales": sales}
-        for name, sales in item_sales.most_common(5)
+        for name, sales in item_sales.most_common(10)
     ]
 
     insights = [
